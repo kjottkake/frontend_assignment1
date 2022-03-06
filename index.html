@@ -6,19 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Ye</title>
 </head>
 
 <body>
     <h1>Things that Kanye doesn't like.</h1>
-    <div class="quote">
-        <button onclick="genQuote(animals)">Animals</button>
+    <div class="box">
+        <!-- <button onclick="genQuote(animals)">Animals</button>
         <button onclick="genQuote(vehicles)">Vehicles</button>
         <button onclick="genQuote(words)">Words</button>
-        <button onclick="genQuote(concepts)">"Concepts"</button>
+        <button onclick="genQuote(concepts)">"Concepts"</button> -->
 
-        <div id="display"></div>
+        <a href="#" class="myButton" onclick="genQuote(animals)">Animals</a>
+        <a href="#" class="myButton" onclick="genQuote(vehicles)">Vehicles</a>
+        <a href="#" class="myButton" onclick="genQuote(words)">Words</a>
+        <a href="#" class="myButton" onclick="genQuote(concepts)">"Concepts"</a>
     </div>
+
+    <div id="display"></div>
+
+    <h1><a href="https://www.stemplayer.com/">Stem Player</a> Prices</h1>
+    <div class="prices">
+        <p>USA: <span id="us"></span></p>
+        <p>Norway: <span id="no"></span></p>
+        <p>United Kingdom: <span id="uk"></span></p>
+        <p>Denmark: <span id="dk"></span></p>
+        <p>Sweden: <span id="se"></span></p>
+    </div>
+    <img src="./kanye.png" alt="ye">
     <script src="./app.js"></script>
 </body>
 
